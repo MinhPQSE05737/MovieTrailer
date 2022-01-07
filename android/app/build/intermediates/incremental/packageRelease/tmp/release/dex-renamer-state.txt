@@ -1,0 +1,4 @@
+#Fri Jan 07 23:43:24 ICT 2022
+base.0=F\:\\React Native\\Movies\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
