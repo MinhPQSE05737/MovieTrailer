@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
- import React, {useState} from 'react';
+ import React, {useState, useEffect} from 'react';
  import {
    SafeAreaView,
    ScrollView,
@@ -25,7 +25,6 @@
    Modal,
  } from 'react-native';
  import { useNavigation } from '@react-navigation/native';
-import { useEffect } from 'react/cjs/react.development';
 import { dataMovie, APIKEY } from '../constants';
 import Carousel from 'react-native-snap-carousel'; 
 import { WebView } from 'react-native-webview';
@@ -102,7 +101,6 @@ import { WebView } from 'react-native-webview';
       alert('Can not open!');
       return;
     }
-   
   }
 
   const renderItemTopMovies = ({item, index}) => {
